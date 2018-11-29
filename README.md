@@ -1,4 +1,3 @@
-
 To access the apis, need to generate the token
 
 URL:
@@ -25,5 +24,3 @@ Api return stats as per the filter
 	https://battles-app.herokuapp.com/api/search?king=Robb Stark&location=Riverrun
 	https://battles-app.herokuapp.com/api/search?king=Robb Stark&type=siege
 	https://battles-app.herokuapp.com/api/search?king=Robb Stark
-
-
