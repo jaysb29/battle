@@ -48,11 +48,6 @@ appRoutes.post('/generate-token', (req, res) => {
     });
 });
 
-appRoutes.get('/', (req, res) => {
-   return res.status(200).send('Welcome.')
-})
-
-
 //Configure for JWT Verification
 appRoutes.use((req, res, next) => {
 	let tokeno  = req.headers['x-access-token'];
