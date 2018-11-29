@@ -1,7 +1,7 @@
 # battle
 
 
-To access the apis, need to generate the token. Following is the api to generate-token
+To access the apis, need to generate the token. Api to generate-token
 
 URL:
 	https://battles-app.herokuapp.com/api/generate-token
