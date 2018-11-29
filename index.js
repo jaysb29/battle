@@ -48,9 +48,10 @@ appRoutes.post('/generate-token', (req, res) => {
     });
 });
 
+
 //Configure for JWT Verification
 appRoutes.use((req, res, next) => {
-	let tokeno  = req.headers['x-access-token'];
+	let token  = req.headers['x-access-token'];
 	if (token) {
 		jwt.verify(token, config.secret, (err, decodedtoken) => {
 			if(err) {
